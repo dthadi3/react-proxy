@@ -1,6 +1,9 @@
+arch:
+  - amd64
+  - ppc64le
 language: node_js
 node_js:
-  - "5"
+  - "15"
 script:
   - npm test
   - npm run build
